@@ -1,4 +1,5 @@
-@bot.command()
+#dont forget to hover giphy_client and hit install + import.
+
 async def gif(ctx, *, q="Error"):
     api_key = "0Hv8Jh4EbijmQQbTF250BXuu0bKymwvZ"
     api_instance = giphy_client.DefaultApi()
