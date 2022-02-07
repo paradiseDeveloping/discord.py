@@ -12,7 +12,6 @@ async def gif(ctx, *, q="Error"):
 
         emb = discord.Embed(title="Your Gif")
         emb.set_image(url=f"https://media.giphy.com/media/{giff.id}/giphy.gif")
-
         await ctx.channel.send(embed=emb)
 
     except ApiException as e:
